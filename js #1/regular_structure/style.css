@@ -1,0 +1,7 @@
+.carousel-item {
+    object-fit:fill;
+}
+
+.carousel-inner {
+    max-height: 400px;
+}
