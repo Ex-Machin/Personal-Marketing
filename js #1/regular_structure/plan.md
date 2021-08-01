@@ -51,3 +51,5 @@ Ctrl+K+C
 
 "use strict" 
 
+parentheses - скобки
+curly brackets = {}

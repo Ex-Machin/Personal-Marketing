@@ -17,20 +17,9 @@ const femaleName = 'Jim' // quotes
 
 const string = 'I came up with a new word: "dslf" '  // combinataion
 
-const color = `green` // backticks - for encapsulation
+const color = `gre \` en` // backticks - for encapsulation
 
-// arrays 
-
-const array = [
-    "Never gonna give you up",
-    "Never gonna let you down",
-    'Never gonna run around and desert you', // don't mix quotes!
-    "Never gonna make you cry",
-    "Never gonna say goodbye",
-    "Never gonna tell a lie and hurt you"
-]
-
-
+// Escape character \
 
 // document
 
@@ -40,9 +29,15 @@ let letParagraph = document.getElementById('carouselExampleIndicators');
 
 var varParagraph = document.querySelector('#paragraph')
 
-// objects
+// function
 
-const object = {
-    a: "first letter of the alphabet",
-    b: "second letter of the alphabet"
+function say(phrase) {
+    console.log(phrase);
 }
+
+say('hello');
+say('it me');
+
+// array function
+
+// addeventListener

@@ -4,12 +4,9 @@
 // const - cannot
 // var - old syntax
 
-// camelCase
+// Camel Case
 // addEventListener ('click')('mouseover')...
 // adding script-tag / writing all script in tag script but without src
-// you've already done it if tried to copy some CDN-file(bootstrap)
-
-// https://getbootstrap.com/docs/5.0/getting-started/introduction/
 
 const modal = document.querySelector("#myModal"),
     btn = document.querySelector("#myBtn"),
@@ -23,9 +20,8 @@ closeBtn.addEventListener('click', () => {
     modal.style.display = "none";
 });
 
-/* 
 modal.addEventListener('click', (event) => {
     if (event.target === modal) {
         modal.style.display = "none";
     }
-}); */
+});
