@@ -1060,7 +1060,8 @@ body.ie ._ibg img {
   text-align: center;
 }
 
-.page__button a {
+.page__button p {
+  cursor: pointer;
   color: #010101;
   font-family: "Source Sans Pro";
   font-size: 22px;
