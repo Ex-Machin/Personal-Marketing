@@ -58,16 +58,41 @@ Ctrl+K+C
 
 parentheses - скобки
 squiggly brackets /curly brackets = {}
+assign - присвавивать
+reassing
 
 homework
 
-    move by bike
-
     Algorithms
+
+    - download the github repo from here 
+
+    https://github.com/Furunkul/Personal-Marketing
+
+    move by bike
 
     - you will need to create your own popup with bootstrap
     - get popup and  button(page__button) with documen.querySelector
     - add a listener with addEventListener 
     - open your window after click on the button
+
+    super_dog
+
+    - make the same but with another page, and using tailwind and its documentation (https://tailwindcss.com/)
+    
+    notes 
+
+        - try to use document.querySelector with id and hash(#), and to do it right you should write and id-tag to html-button. and the same to modal-structure, you'll find in tailwind documentation
+        - in tailwind the popup is not hidden by default, so you'll need to hide it. And try it with javaScript
+
+
+    external-links
+
+    https://javascript.info/variables
+    https://javascript.info/searching-elements-dom
+    https://javascript.info/function-basics
+    https://javascript.info/arrow-functions-basics
+    https://javascript.info/styles-and-classes
+
 
     

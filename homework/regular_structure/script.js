@@ -63,7 +63,7 @@ calcSum() // this will calculate sum
 
 // an so on (we are writing code most of the time not for us but for others too)
 
-// array function
+// array function (we don't need to use "return")
 
 let sumForArray = (a, b) => a + b;
 
