@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         modal = document.querySelector('#openModal'),
         closeButton = document.querySelector('.close');
 
-    button.addEventListener('click', (e) => {
+    button.addEventListener('click', (e) => { 
         e.preventDefault();
         modal.style.display = "block";
     });

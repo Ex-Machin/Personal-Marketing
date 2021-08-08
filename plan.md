@@ -24,7 +24,7 @@ Coding not programming(will try to learn more syntax than logic and applied math
 
 Programming not coding
 
-strong knowledge of css and html
+strong knowledge of css and html // live server, emmet
 
 https://getbootstrap.com/docs/5.0/getting-started/introduction/
 
@@ -60,6 +60,7 @@ parentheses - скобки
 squiggly brackets /curly brackets = {}
 assign - присвавивать
 reassing
+colon - двоеточие
 
 homework
 
