@@ -20,7 +20,7 @@ window.onbeforeunload = function() {
 5. explain what is event
 5.1 console.log(event)
 6. make a close-button
-7. fix scroll
+7. fix scroll (try to add more content into your page and your modal)
 
 'use strict'
 

@@ -24,7 +24,7 @@ Coding not programming(will try to learn more syntax than logic and applied math
 
 Programming not coding
 
-strong knowledge of css and html // live server, emmet
+strong knowledge of css and html // live server, emmet if you don't use vs code like me
 
 https://getbootstrap.com/docs/5.0/getting-started/introduction/
 
