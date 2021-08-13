@@ -9,10 +9,12 @@ const modal = document.querySelector("#myModal"),
 
 btn.addEventListener('click', () => {
     modal.style.display = "block";
+    modal.style.overflow = "hidden"
 });
 
 closeBtn.addEventListener('click', () => {
     modal.style.display = "none";
+    modal.style.overflow = "auto"
 });
 
 

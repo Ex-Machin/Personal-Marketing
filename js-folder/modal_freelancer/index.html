@@ -1,100 +1,109 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Popup</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="null.css">
-</head>
-
-<body>
-    <a href="#popup"> I'm popup</a>
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae aliquid sint quia animi architecto magnam,
-        laboriosam aut ex fugiat reprehenderit commodi! Cupiditate quod repudiandae libero ad asperiores, molestias odio
-        in.
-    </p>
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae aliquid sint quia animi architecto magnam,
-        laboriosam aut ex fugiat reprehenderit commodi! Cupiditate quod repudiandae libero ad asperiores, molestias odio
-        in.
-    </p>
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae aliquid sint quia animi architecto magnam,
-        laboriosam aut ex fugiat reprehenderit commodi! Cupiditate quod repudiandae libero ad asperiores, molestias odio
-        in.
-    </p>
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae aliquid sint quia animi architecto magnam,
-        laboriosam aut ex fugiat reprehenderit commodi! Cupiditate quod repudiandae libero ad asperiores, molestias odio
-        in.
-    </p>
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae aliquid sint quia animi architecto magnam,
-        laboriosam aut ex fugiat reprehenderit commodi! Cupiditate quod repudiandae libero ad asperiores, molestias odio
-        in.
-    </p>
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae aliquid sint quia animi architecto magnam,
-        laboriosam aut ex fugiat reprehenderit commodi! Cupiditate quod repudiandae libero ad asperiores, molestias odio
-        in.
-    </p>
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae aliquid sint quia animi architecto magnam,
-        laboriosam aut ex fugiat reprehenderit commodi! Cupiditate quod repudiandae libero ad asperiores, molestias odio
-        in.
-    </p>
-    <div class="popup" id="popup">
-        <a href="#" class="popup__area"></a>
-        <div class="popup__body">
-            <div class="popup__content">
-                <a href="#" class="popup__close">&times</a>
-                <div class="popup__title">Модальное окно</div>
-                <div class="popup__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem tenetur facere quam laborum? Optio
-                    ut officiis deserunt cupiditate voluptate maiores autem veniam harum! Cumque explicabo consequatur
-                    ab porro exercitationem distinctio.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem tenetur facere quam laborum? Optio
-                    ut officiis deserunt cupiditate voluptate maiores autem veniam harum! Cumque explicabo consequatur
-                    ab porro exercitationem distinctio.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem tenetur facere quam laborum? Optio
-                    ut officiis deserunt cupiditate voluptate maiores autem veniam harum! Cumque explicabo consequatur
-                    ab porro exercitationem distinctio.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem tenetur facere quam laborum? Optio
-                    ut officiis deserunt cupiditate voluptate maiores autem veniam harum! Cumque explicabo consequatur
-                    ab porro exercitationem distinctio.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem tenetur facere quam laborum? Optio
-                    ut officiis deserunt cupiditate voluptate maiores autem veniam harum! Cumque explicabo consequatur
-                    ab porro exercitationem distinctio.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem tenetur facere quam laborum? Optio
-                    ut officiis deserunt cupiditate voluptate maiores autem veniam harum! Cumque explicabo consequatur
-                    ab porro exercitationem distinctio.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem tenetur facere quam laborum? Optio
-                    ut officiis deserunt cupiditate voluptate maiores autem veniam harum! Cumque explicabo consequatur
-                    ab porro exercitationem distinctio.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem tenetur facere quam laborum? Optio
-                    ut officiis deserunt cupiditate voluptate maiores autem veniam harum! Cumque explicabo consequatur
-                    ab porro exercitationem distinctio.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem tenetur facere quam laborum? Optio
-                    ut officiis deserunt cupiditate voluptate maiores autem veniam harum! Cumque explicabo consequatur
-                    ab porro exercitationem distinctio.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem tenetur facere quam laborum? Optio
-                    ut officiis deserunt cupiditate voluptate maiores autem veniam harum! Cumque explicabo consequatur
-                    ab porro exercitationem distinctio.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem tenetur facere quam laborum? Optio
-                    ut officiis deserunt cupiditate voluptate maiores autem veniam harum! Cumque explicabo consequatur
-                    ab porro exercitationem distinctio.
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
-</body>
-
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Модальное окно. Попап.</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+		<!-- Адаптив -->
+		<meta name="viewport" content="width=device-width">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<!-- Оболочка -->
+		<div class="wrapper">
+			<!-- Контент -->
+			<header id="header" class="header lock-padding">
+				<div class="header__container _container">
+					<a href="" class="header__logo"></a>
+					<a href="#popup" class="header__phone popup-link">Попап №1</a>
+				</div>
+			</header>
+			<div class="content">
+				<div class="content__container _container">
+					<section class="content__section content__section_row">
+						<div class="content__body">
+							<h1 class="content__title">Только вперед!</h1>
+							<div class="content__text">
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, consequuntur eveniet! Sequi, debitis minus quisquam provident tenetur atque assumenda ut voluptatum sapiente ipsum illo harum facere officia maiores blanditiis et.</p>
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, consequuntur eveniet! Sequi, debitis minus quisquam provident tenetur atque assumenda ut voluptatum sapiente ipsum illo harum facere officia maiores blanditiis et.</p>
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, consequuntur eveniet! Sequi, debitis minus quisquam provident tenetur atque assumenda ut voluptatum sapiente ipsum illo harum facere officia maiores blanditiis et.</p>
+							</div>
+						</div>
+						<a href="#image" class="content__image popup-link">
+							<img src="img/image.jpg" alt="">
+						</a>
+					</section>
+					<section class="content__section">
+						<h2 class="content__subtitle">Живи, а работай в свободное время!</h2>
+						<div class="content__text">
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, consequuntur eveniet! Sequi, debitis minus quisquam provident tenetur atque assumenda ut voluptatum sapiente ipsum illo harum facere officia maiores blanditiis et.</p>
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, consequuntur eveniet! Sequi, debitis minus quisquam provident tenetur atque assumenda ut voluptatum sapiente ipsum illo harum facere officia maiores blanditiis et.</p>
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, consequuntur eveniet! Sequi, debitis minus quisquam provident tenetur atque assumenda ut voluptatum sapiente ipsum illo harum facere officia maiores blanditiis et.</p>
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, consequuntur eveniet! Sequi, debitis minus quisquam provident tenetur atque assumenda ut voluptatum sapiente ipsum illo harum facere officia maiores blanditiis et.</p>
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, consequuntur eveniet! Sequi, debitis minus quisquam provident tenetur atque assumenda ut voluptatum sapiente ipsum illo harum facere officia maiores blanditiis et.</p>
+							<p><a class="popup-link" href="#popup_2">Попап №2</a> ipsum dolor sit amet consectetur, adipisicing elit. Commodi, consequuntur eveniet! Sequi, debitis minus quisquam provident tenetur atque assumenda ut voluptatum sapiente ipsum illo harum facere officia maiores blanditiis et.</p>
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, consequuntur eveniet! Sequi, debitis minus quisquam provident tenetur atque assumenda ut voluptatum sapiente ipsum illo harum facere officia maiores blanditiis et.</p>
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, consequuntur eveniet! Sequi, debitis minus quisquam provident tenetur atque assumenda ut voluptatum sapiente ipsum illo harum facere officia maiores blanditiis et.</p>
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, consequuntur eveniet! Sequi, debitis minus quisquam provident tenetur atque assumenda ut voluptatum sapiente ipsum illo harum facere officia maiores blanditiis et.</p>
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, consequuntur eveniet! Sequi, debitis minus quisquam provident tenetur atque assumenda ut voluptatum sapiente ipsum illo harum facere officia maiores blanditiis et.</p>
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, consequuntur eveniet! Sequi, debitis minus quisquam provident tenetur atque assumenda ut voluptatum sapiente ipsum illo harum facere officia maiores blanditiis et.</p>
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, consequuntur eveniet! Sequi, debitis minus quisquam provident tenetur atque assumenda ut voluptatum sapiente ipsum illo harum facere officia maiores blanditiis et.</p>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<div id="popup" class="popup">
+			<div class="popup__body">
+				<div class="popup__content">
+					<a href="#header" class="popup__close close-popup">X</a>
+					<div class="popup__title">Это модальное окно №1</div>
+					<div class="popup__text">
+						<a class="popup-link" href="#popup_2">Попап №2</a> ipsum dolor sit amet consectetur adipisicing elit. Aut enim vero veritatis velit assumenda soluta sed ad, omnis alias placeat debitis voluptas ea ipsam dolorum error dolorem, a blanditiis! Quidem!
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim vero veritatis velit assumenda soluta sed ad, omnis alias placeat debitis voluptas ea ipsam dolorum error dolorem, a blanditiis! Quidem!
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim vero veritatis velit assumenda soluta sed ad, omnis alias placeat debitis voluptas ea ipsam dolorum error dolorem, a blanditiis! Quidem!
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim vero veritatis velit assumenda soluta sed ad, omnis alias placeat debitis voluptas ea ipsam dolorum error dolorem, a blanditiis! Quidem!
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim vero veritatis velit assumenda soluta sed ad, omnis alias placeat debitis voluptas ea ipsam dolorum error dolorem, a blanditiis! Quidem!
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim vero veritatis velit assumenda soluta sed ad, omnis alias placeat debitis voluptas ea ipsam dolorum error dolorem, a blanditiis! Quidem!
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim vero veritatis velit assumenda soluta sed ad, omnis alias placeat debitis voluptas ea ipsam dolorum error dolorem, a blanditiis! Quidem!
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="popup_2" class="popup">
+			<div class="popup__body">
+				<div class="popup__content">
+					<a href="#header" class="popup__close close-popup">X</a>
+					<div class="popup__title">Это модальное окно №2</div>
+					<div class="popup__text">
+						ipsum dolor sit amet consectetur adipisicing elit. Aut enim vero veritatis velit assumenda soluta sed ad, omnis alias placeat debitis voluptas ea ipsam dolorum error dolorem, a blanditiis! Quidem!
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim vero veritatis velit assumenda soluta sed ad, omnis alias placeat debitis voluptas ea ipsam dolorum error dolorem, a blanditiis! Quidem!
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim vero veritatis velit assumenda soluta sed ad, omnis alias placeat debitis voluptas ea ipsam dolorum error dolorem, a blanditiis! Quidem!
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim vero veritatis velit assumenda soluta sed ad, omnis alias placeat debitis voluptas ea ipsam dolorum error dolorem, a blanditiis! Quidem!
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim vero veritatis velit assumenda soluta sed ad, omnis alias placeat debitis voluptas ea ipsam dolorum error dolorem, a blanditiis! Quidem!
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim vero veritatis velit assumenda soluta sed ad, omnis alias placeat debitis voluptas ea ipsam dolorum error dolorem, a blanditiis! Quidem!
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim vero veritatis velit assumenda soluta sed ad, omnis alias placeat debitis voluptas ea ipsam dolorum error dolorem, a blanditiis! Quidem!
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="image" class="popup">
+			<div class="popup__body">
+				<div class="popup__content popup__content_image">
+					<a href="#header" class="popup__close close-popup">X</a>
+					<div class="popup__image">
+						<img src="img/image.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/popups.js"></script>
+	</body>
 </html>
