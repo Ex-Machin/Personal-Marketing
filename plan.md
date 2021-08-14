@@ -80,6 +80,10 @@ homework
     super_dog
 
     - make the same but with another page, and using tailwind and its documentation (https://tailwindcss.com/)
+
+    codewars 
+
+    https://www.codewars.com/kata/571ec274b1c8d4a61c0000c8
     
     notes 
 
